@@ -13,4 +13,4 @@
 * **Engineering Rigor:** Built a logical closed-loop for troubleshooting complex engineering problems in power systems.
 
 ---
-**Contact:** Tan Junyin - Electrical Engineering (Taiyuan University of Technology)
+**Contact:** Tan Junyin - Electrical Engineering and Automation (Taiyuan University of Technology)
