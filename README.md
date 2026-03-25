@@ -34,6 +34,7 @@
 | **零序电流比幅法** | 稳态幅值 | 各馈线零序电流有效值 (RMS) **最大者**即为故障线路 | 中性点不接地系统 | [`Amplitude_Compare.m`](./Algorithms/Amplitude_Compare.m) |
 | **零序电流比相法** | 稳态相位 | 零序电流滞后零序电压约 90° 者为故障线 (通过 FFT 提取基波角度) | 不接地 / 补偿系统 (有理论误差) | [`Phase_Compare.m`](./Algorithms/Phase_Compare.m) |
 | **五次谐波法 (推荐)** | 谐波分析 | 提取 250Hz FFT 频点，**五次谐波幅值最大者**为故障线，完美利用消弧线圈无法补偿高次谐波的物理特性 | 经消弧线圈小电流接地系统 | [`Fifth_Harmonic.m`](./Algorithms/Fifth_Harmonic.m) |
+| **暂态极性法** | 暂态特征 | 利用故障发生最初的暂态零序电流首半波极性，故障线与健全线极性相反 | 不接地 / 补偿系统 (普适性强) | [`Transient_Polarity.m`](./Algorithms/Transient_Polarity.m) |
 
 ---
 
@@ -69,10 +70,3 @@
   </div>
 </div>
 </details>
-
----
-
-**联系人 (Contact)：** 
-**谭俊胤 (Tan Junyin)** 
-*电气工程及其自动化专业*
-*太原理工大学 (Taiyuan University of Technology)*
