@@ -1,0 +1,518 @@
+===================================================
+Simulink 模型参数报告 - 提取时间: 17-Mar-2026 01:33:32
+模型名称: popou
+===================================================
+
+【元件名称】: Current Measurement1
+  ▶ 模块类型: Current Measurement
+  - PhasorSimulation: off
+  - OutputType: Magnitude-Angle
+  - PSBequivalent: 0
+
+【元件名称】: Current Measurement18
+  ▶ 模块类型: Current Measurement
+  - PhasorSimulation: off
+  - OutputType: Magnitude-Angle
+  - PSBequivalent: 0
+
+【元件名称】: Current Measurement19
+  ▶ 模块类型: Current Measurement
+  - PhasorSimulation: off
+  - OutputType: Magnitude-Angle
+  - PSBequivalent: 0
+
+【元件名称】: Current Measurement2
+  ▶ 模块类型: Current Measurement
+  - PhasorSimulation: off
+  - OutputType: Magnitude-Angle
+  - PSBequivalent: 0
+
+【元件名称】: Grid_Source
+  ▶ 模块类型: Three-Phase Source
+  - InternalConnection: Yg
+  - VoltagePhases: off
+  - Voltage: 110e3
+  - PhaseAngle: 0
+  - Voltage_phases: [25e3 25e3 25e3]/sqrt(3)
+  - PhaseAngles_phases: [0 -120 +120]
+  - Frequency: 50
+  - NonIdealSource: on
+  - SpecifyImpedance: off
+  - Resistance: 0.8
+  - Inductance: 16.58e-3
+  - ShortCircuitLevel: 100e6
+  - BaseVoltage: 25e3
+  - XRratio: 7
+  - BusType: swing
+  - Pref: 10e3
+  - Qref: 0
+  - Prefabc: [10e3, 10e3, 10e3]
+  - Qrefabc: [0, 0, 0]
+  - Qmin: -inf
+  - Qmax: inf
+
+【元件名称】: Ground1
+  ▶ 模块类型: Ground
+
+【元件名称】: Ground2
+  ▶ 模块类型: Ground
+
+【元件名称】: Ground3
+  ▶ 模块类型: Ground
+
+【元件名称】: Grounding_Fault
+  ▶ 模块类型: Three-Phase Fault
+  - InitialStates: 0
+  - FaultA: on
+  - FaultB: off
+  - FaultC: off
+  - GroundFault: on
+  - SwitchTimes: 0.105
+  - External: off
+  - SwitchStatus: NaN
+  - FaultResistance: 100
+  - GroundResistance: 0.00000001
+  - SnubberResistance: 1e6
+  - SnubberCapacitance: inf
+  - Measurements: None
+
+【元件名称】: I_Meas_Line1
+  ▶ 模块类型: Three-Phase VI Measurement
+  - VoltageMeasurement: no
+  - SetLabelV: off
+  - LabelV: Vabc
+  - Vpu: off
+  - VpuLL: off
+  - CurrentMeasurement: yes
+  - SetLabelI: off
+  - LabelI: Iabc
+  - Ipu: off
+  - Pbase: 100e6
+  - Vbase: 500e3
+  - OutputType: Complex
+  - PhasorSimulation: off
+  - PSBequivalent: 0
+
+【元件名称】: I_Meas_Line2
+  ▶ 模块类型: Three-Phase VI Measurement
+  - VoltageMeasurement: no
+  - SetLabelV: off
+  - LabelV: Vabc
+  - Vpu: off
+  - VpuLL: off
+  - CurrentMeasurement: yes
+  - SetLabelI: off
+  - LabelI: Iabc
+  - Ipu: off
+  - Pbase: 100e6
+  - Vbase: 500e3
+  - OutputType: Complex
+  - PhasorSimulation: off
+  - PSBequivalent: 0
+
+【元件名称】: I_Meas_Line3
+  ▶ 模块类型: Three-Phase VI Measurement
+  - VoltageMeasurement: no
+  - SetLabelV: off
+  - LabelV: Vabc
+  - Vpu: off
+  - VpuLL: off
+  - CurrentMeasurement: yes
+  - SetLabelI: off
+  - LabelI: Iabc
+  - Ipu: off
+  - Pbase: 100e6
+  - Vbase: 500e3
+  - OutputType: Complex
+  - PhasorSimulation: off
+  - PSBequivalent: 0
+
+【元件名称】: I_Meas_Line4
+  ▶ 模块类型: Three-Phase VI Measurement
+  - VoltageMeasurement: no
+  - SetLabelV: off
+  - LabelV: Vabc
+  - Vpu: off
+  - VpuLL: off
+  - CurrentMeasurement: yes
+  - SetLabelI: off
+  - LabelI: Iabc
+  - Ipu: off
+  - Pbase: 100e6
+  - Vbase: 500e3
+  - OutputType: Complex
+  - PhasorSimulation: off
+  - PSBequivalent: 0
+
+【元件名称】: Line_Feeder1
+  ▶ 模块类型: Three-Phase PI Section Line
+  - Length: 3
+  - Frequency: 50
+  - Resistances: [0.27 2.7 ] 
+  - Inductances: [0.255e-3  1.109e-3] 
+  - Capacitances: [0.376e-6 0.276e-6]
+
+【元件名称】: Line_Feeder2
+  ▶ 模块类型: Three-Phase PI Section Line
+  - Length: 3
+  - Frequency: 50
+  - Resistances: [0.27 2.7 ] 
+  - Inductances: [0.255e-3  1.109e-3] 
+  - Capacitances: [0.376e-6 0.276e-6]
+
+【元件名称】: Line_Feeder3
+  ▶ 模块类型: Three-Phase PI Section Line
+  - Length: 3
+  - Frequency: 50
+  - Resistances: [0.27 2.7 ] 
+  - Inductances: [0.255e-3  1.109e-3] 
+  - Capacitances: [0.376e-6 0.276e-6]
+
+【元件名称】: Line_Feeder4
+  ▶ 模块类型: Three-Phase PI Section Line
+  - Length: 3
+  - Frequency: 50
+  - Resistances: [0.27 2.7 ] 
+  - Inductances: [0.255e-3  1.109e-3] 
+  - Capacitances: [0.376e-6 0.276e-6]
+
+【元件名称】: Line_Feeder5
+  ▶ 模块类型: Three-Phase PI Section Line
+  - Length: 15
+  - Frequency: 50
+  - Resistances: [0.17 0.32 ] 
+  - Inductances: [1.017e-3  3.56e-3] 
+  - Capacitances: [0.115e-6 0.006e-6]
+
+【元件名称】: Line_Feeder6
+  ▶ 模块类型: Three-Phase PI Section Line
+  - Length: 6
+  - Frequency: 50
+  - Resistances: [0.27 2.7 ] 
+  - Inductances: [0.255e-3  1.109e-3] 
+  - Capacitances: [0.376e-6 0.276e-6]
+
+【元件名称】: Line_Feeder7
+  ▶ 模块类型: Three-Phase PI Section Line
+  - Length: 6
+  - Frequency: 50
+  - Resistances: [0.17 0.32 ] 
+  - Inductances: [ 1.017e-3  3.56e-3] 
+  - Capacitances: [0.115e-6 0.006e-6]
+
+【元件名称】: Line_Feeder8
+  ▶ 模块类型: Three-Phase PI Section Line
+  - Length: 6
+  - Frequency: 50
+  - Resistances: [0.17 0.32 ] 
+  - Inductances: [ 1.017e-3  3.56e-3] 
+  - Capacitances: [0.115e-6 0.006e-6]
+
+【元件名称】: Load1
+  ▶ 模块类型: Three-Phase Series RLC Load
+  - Configuration: Y (grounded)
+  - NominalVoltage: 380
+  - Vabc: [1e3 1e3 1e3]
+  - Vabcp: [1e3 1e3 1e3]
+  - NominalFrequency: 50
+  - UnbalancedPower: off
+  - ActivePower: 0.8e5
+  - InductivePower: 0.5e5
+  - CapacitivePower: 0.2e5
+  - Pabc: [10e3 9e3 11e3]
+  - QLabc: [100 90 110]
+  - QCabc: [100 90 110]
+  - Pabcp: [10e3 9e3 11e3]
+  - QLabcp: [100 90 110]
+  - QCabcp: [100 90 110]
+  - Measurements: None
+  - LoadType: constant Z
+
+【元件名称】: Load2
+  ▶ 模块类型: Three-Phase Series RLC Load
+  - Configuration: Y (grounded)
+  - NominalVoltage: 380
+  - Vabc: [1e3 1e3 1e3]
+  - Vabcp: [1e3 1e3 1e3]
+  - NominalFrequency: 50
+  - UnbalancedPower: off
+  - ActivePower: 0.8e5
+  - InductivePower: 0.5e5
+  - CapacitivePower: 0.2e5
+  - Pabc: [10e3 9e3 11e3]
+  - QLabc: [100 90 110]
+  - QCabc: [100 90 110]
+  - Pabcp: [10e3 9e3 11e3]
+  - QLabcp: [100 90 110]
+  - QCabcp: [100 90 110]
+  - Measurements: None
+  - LoadType: constant Z
+
+【元件名称】: Load3
+  ▶ 模块类型: Three-Phase Series RLC Load
+  - Configuration: Y (grounded)
+  - NominalVoltage: 380
+  - Vabc: [1e3 1e3 1e3]
+  - Vabcp: [1e3 1e3 1e3]
+  - NominalFrequency: 50
+  - UnbalancedPower: off
+  - ActivePower: 0.8e5
+  - InductivePower: 0.5e5
+  - CapacitivePower: 0.2e5
+  - Pabc: [10e3 9e3 11e3]
+  - QLabc: [100 90 110]
+  - QCabc: [100 90 110]
+  - Pabcp: [10e3 9e3 11e3]
+  - QLabcp: [100 90 110]
+  - QCabcp: [100 90 110]
+  - Measurements: None
+  - LoadType: constant Z
+
+【元件名称】: Load4
+  ▶ 模块类型: Three-Phase Series RLC Load
+  - Configuration: Y (grounded)
+  - NominalVoltage: 380
+  - Vabc: [1e3 1e3 1e3]
+  - Vabcp: [1e3 1e3 1e3]
+  - NominalFrequency: 50
+  - UnbalancedPower: off
+  - ActivePower: 0.8e5
+  - InductivePower: 0.5e5
+  - CapacitivePower: 0.2e5
+  - Pabc: [10e3 9e3 11e3]
+  - QLabc: [100 90 110]
+  - QCabc: [100 90 110]
+  - Pabcp: [10e3 9e3 11e3]
+  - QLabcp: [100 90 110]
+  - QCabcp: [100 90 110]
+  - Measurements: None
+  - LoadType: constant Z
+
+【元件名称】: Main_Transformer
+  ▶ 模块类型: Three-Phase Transformer (Two Windings)
+  - Winding1Connection: Yg
+  - Winding2Connection: Yn
+  - CoreType: Three single-phase transformers
+  - SetSaturation: off
+  - Hysteresis: off
+  - DataFile: 'hysteresis'
+  - SetInitialFlux: off
+  - Measurements: None
+  - UNITS: SI
+  - NominalPower: [ 30e6 , 50 ]
+  - Winding1: [1.1e+05 97.607 0.039558]
+  - Winding2: [11000 0.0080667 3.2693e-06]
+  - Rm: 2.4402e+07
+  - Lm: 247.24
+  - L0: 0.64192
+  - Saturation: [0 0;0.53443 343.07;222.68 434.55]
+  - InitialFluxes: [228.71 -228.71 200.12]
+  - BreakLoop: off
+  - DiscreteSolver: Trapezoidal iterative
+  - DataType: on
+  - TransfoNumber: 1
+
+【元件名称】: Series RLC Branch2
+  ▶ 模块类型: Series RLC Branch
+  - BranchType: L
+  - Resistance: 100
+  - Inductance: 0.4452
+  - SetiL0: off
+  - InitialCurrent: 0
+  - Capacitance: 1e-6
+  - Setx0: off
+  - InitialVoltage: 0
+  - Measurements: None
+
+【元件名称】: Three-Phase
+Transformer
+(Two Windings)1
+  ▶ 模块类型: Three-Phase Transformer (Two Windings)
+  - Winding1Connection: Delta (D1)
+  - Winding2Connection: Yn
+  - CoreType: Three single-phase transformers
+  - SetSaturation: off
+  - Hysteresis: off
+  - DataFile: 'hysteresis'
+  - SetInitialFlux: off
+  - Measurements: None
+  - UNITS: SI
+  - NominalPower: [5e6 , 50 ]
+  - Winding1: [10e3 27.011 3.4392]
+  - Winding2: [400 0.005 0.00063662]
+  - Rm: 6.7528e+06
+  - Lm: 21495
+  - L0: 0.5
+  - Saturation: [0 0;0.10664 2292.3;44.435 2903.6]
+  - InitialFluxes: [1528.2 -1528.2 1337.2]
+  - BreakLoop: off
+  - DiscreteSolver: Trapezoidal iterative
+  - DataType: on
+  - TransfoNumber: 1
+
+【元件名称】: Three-Phase
+Transformer
+(Two Windings)2
+  ▶ 模块类型: Three-Phase Transformer (Two Windings)
+  - Winding1Connection: Delta (D1)
+  - Winding2Connection: Yn
+  - CoreType: Three single-phase transformers
+  - SetSaturation: off
+  - Hysteresis: off
+  - DataFile: 'hysteresis'
+  - SetInitialFlux: off
+  - Measurements: None
+  - UNITS: SI
+  - NominalPower: [5e6 , 50 ]
+  - Winding1: [10e3 27.011 3.4392]
+  - Winding2: [400 0.005 0.00063662]
+  - Rm: 6.7528e+06
+  - Lm: 21495
+  - L0: 0.5
+  - Saturation: [0 0;0.10664 2292.3;44.435 2903.6]
+  - InitialFluxes: [1528.2 -1528.2 1337.2]
+  - BreakLoop: off
+  - DiscreteSolver: Trapezoidal iterative
+  - DataType: on
+  - TransfoNumber: 1
+
+【元件名称】: Three-Phase
+Transformer
+(Two Windings)3
+  ▶ 模块类型: Three-Phase Transformer (Two Windings)
+  - Winding1Connection: Delta (D1)
+  - Winding2Connection: Yn
+  - CoreType: Three single-phase transformers
+  - SetSaturation: off
+  - Hysteresis: off
+  - DataFile: 'hysteresis'
+  - SetInitialFlux: off
+  - Measurements: None
+  - UNITS: SI
+  - NominalPower: [5e6 , 50 ]
+  - Winding1: [10e3 27.011 3.4392]
+  - Winding2: [400 0.005 0.00063662]
+  - Rm: 6.7528e+06
+  - Lm: 21495
+  - L0: 0.5
+  - Saturation: [0 0;0.10664 2292.3;44.435 2903.6]
+  - InitialFluxes: [1528.2 -1528.2 1337.2]
+  - BreakLoop: off
+  - DiscreteSolver: Trapezoidal iterative
+  - DataType: on
+  - TransfoNumber: 1
+
+【元件名称】: Three-Phase
+Transformer
+(Two Windings)4
+  ▶ 模块类型: Three-Phase Transformer (Two Windings)
+  - Winding1Connection: Delta (D1)
+  - Winding2Connection: Yn
+  - CoreType: Three single-phase transformers
+  - SetSaturation: off
+  - Hysteresis: off
+  - DataFile: 'hysteresis'
+  - SetInitialFlux: off
+  - Measurements: None
+  - UNITS: SI
+  - NominalPower: [5e6 , 50 ]
+  - Winding1: [10e3 27.011 3.4392]
+  - Winding2: [400 0.005 0.00063662]
+  - Rm: 6.7528e+06
+  - Lm: 21495
+  - L0: 0.5
+  - Saturation: [0 0;0.10664 2292.3;44.435 2903.6]
+  - InitialFluxes: [1528.2 -1528.2 1337.2]
+  - BreakLoop: off
+  - DiscreteSolver: Trapezoidal iterative
+  - DataType: on
+  - TransfoNumber: 1
+
+【元件名称】: V_I_Measurement
+  ▶ 模块类型: Three-Phase VI Measurement
+  - VoltageMeasurement: phase-to-ground
+  - SetLabelV: off
+  - LabelV: Vabc
+  - Vpu: off
+  - VpuLL: off
+  - CurrentMeasurement: yes
+  - SetLabelI: off
+  - LabelI: Iabc
+  - Ipu: off
+  - Pbase: 100e6
+  - Vbase: 500e3
+  - OutputType: Complex
+  - PhasorSimulation: off
+  - PSBequivalent: 0
+
+【元件名称】: Voltage Measurement
+  ▶ 模块类型: Voltage Measurement
+  - PhasorSimulation: off
+  - OutputType: Complex
+  - PSBequivalent: 0
+
+【元件名称】: Voltage Measurement1
+  ▶ 模块类型: Voltage Measurement
+  - PhasorSimulation: off
+  - OutputType: Complex
+  - PSBequivalent: 0
+
+【元件名称】: Voltage Measurement2
+  ▶ 模块类型: Voltage Measurement
+  - PhasorSimulation: off
+  - OutputType: Complex
+  - PSBequivalent: 0
+
+【元件名称】: powergui
+  ▶ 模块类型: PSB option menu block
+  - SimulationMode: Discrete
+  - SampleTime: 50e-6
+  - frequency: 60
+  - Iterations: 50
+  - frequencyindice: 50
+  - Pbase: 100e6
+  - ErrMax: 1e-4
+  - UnitsV: kV
+  - UnitsW: MW
+  - buscounter: 0
+  - FunctionMessages: off
+  - echomessages: off
+  - EnableUseOfTLC: off
+  - CurrentSourceSwitches: off
+  - DisableSnubberDevices: off
+  - DisableRonSwitches: off
+  - DisableVfSwitches: off
+  - DisplayEquations: off
+  - AutomaticDiscreteSolvers: off
+  - SolverType: Tustin/Backward Euler (TBE)
+  - Interpol: off
+  - ExternalGateDelay: off
+  - methode: off
+  - Ts: 100
+  - x0status: blocks
+  - SPID: on
+  - SwTol: 0
+  - HookPort: off
+  - NonlinearTolerance: 1e-4
+  - nMaxIteration: 100
+  - ContinueOnMaxIteration: off
+  - RestoreLinks: warning
+  - ResistiveCurrentMeasurement: off
+  - Frange: [0:2:500]
+  - Ylog: off
+  - Xlog: on
+  - ShowGrid: off
+  - save: off
+  - variable: ZData
+  - structure: 0
+  - ZoomFFT: off
+  - StartTime: 0.0
+  - cycles: 1
+  - DisplayStyle: 1
+  - fundamental: 60
+  - FreqAxis: off
+  - MaxFrequency: 1000
+  - frequencyindicesteady: 1
+  - RmsSteady: 1
+  - display: off
+

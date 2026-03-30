@@ -20,8 +20,10 @@ fault_time  = 0.105;
 window_end  = fault_time + 0.002;
 
 %% 2. 调用公共数据提取函数
-% 注意: 本脚本依赖工作区中已存在的仿真结果变量 'out'
-% 请在运行本脚本前，先执行: out = sim('Distribution_Fault_Model');
+model_name = 'Distribution_Fault_Model';
+disp(['正在运行仿真模型: ', model_name, '.slx...']);
+out = sim(model_name);
+
 addpath(fileparts(which(mfilename)));      % 确保公共函数可被找到
 [time_axis, i1_data, i2_data, i3_data, i4_data, ~] = extract_simulation_data(out);
 
